@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel__track {
+  transition: transform 500ms ease;
+}
+
+.carousel__slide:nth-child(even) {
+  border-color: rgba(0, 108, 158, 0.2);
+}
+
+.carousel__btn-prev {
+  display: none;
+}
+
+.carousel__dot {
+  background: #eee;
+}
+
+.current__dot {
+  background: #111;
+}
